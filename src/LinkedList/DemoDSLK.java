@@ -25,9 +25,10 @@ public class DemoDSLK {
 		
 		myDS.size = 3;
 		//kiểm tra
+		//myDS.printDSLK();
+		
+		myDS.insertFirst(15);
 		myDS.printDSLK();
-		
-		
 	}
 
 }

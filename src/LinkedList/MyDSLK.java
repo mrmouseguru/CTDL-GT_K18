@@ -29,6 +29,10 @@ public class MyDSLK {
 	// Big-O???
 	void insertFirst(int value) {
 		// sv cài đặt code
+		Node node15 = new Node(15);//next = null
+		node15.next = head;
+		head = node15;
+		size++;
 
 	}
 
